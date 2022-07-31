@@ -2,7 +2,7 @@
   "name": "movie_app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tagaevrenat.github.io/movieApp_2.0/",
+  "homepage": "https://tagaevrenat.github.io/movie_app_react/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
