@@ -49,7 +49,7 @@ const Cards = ({ setFilm, refer, title }) => {
             <p className="fs-1 text-center"><b>{title}</b></p>
             <div className='row'>
                 {cards.map((item) =>
-                    <div className='col-xs-12 col-md-5 col-lg-3 col' onClick={(e) => {
+                    <div className='col-xs-12 col-md-5 col-lg-3' onClick={(e) => {
                         e.preventDefault()
                         setFilm(item[1])
                         navigate(`/film/${item[1]}`)
