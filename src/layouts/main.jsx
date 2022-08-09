@@ -1,5 +1,5 @@
-import Cards from "../UI/Cards"
-import Pagination from "../UI/pagination/pagination"
+import Cards from "./../components/cards/Cards"
+import Pagination from "./../components/pagination/pagination"
 
 const Main = ({ setCurrentFilm, currentPage, setCurrentPage, title, refer }) => {
     return (

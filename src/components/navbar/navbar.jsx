@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import getGenresCollection from '../servise/getGenresCollection'
-import Error from './error'
-import Loader from './loader/loader'
+import Error from '../error/error'
+import Loader from '../loader/loader'
 
 const Navbar = ({ setCurrentGenre, setQuery, setCurrentPage, genres, setGenres }) => {
     const [loading, setLoading] = useState(false)

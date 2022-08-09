@@ -1,4 +1,4 @@
-import FilmCard from "../UI/filmCard"
+import FilmCard from "../components/filmCard/filmCard"
 import { useParams } from 'react-router-dom'
 import { useEffect } from "react"
 

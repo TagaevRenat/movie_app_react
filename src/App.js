@@ -1,13 +1,13 @@
 import { useState } from 'react'
-import About from './components/pages/about'
+import About from './layouts/about'
 import './App.css'
-import Genres from './components/pages/genres';
-import Main from './components/pages/main';
-import Search from './components/pages/search';
-import Navbar from './components/UI/navbar';
+import Genres from './layouts/genres';
+import Main from './layouts/main';
+import Search from './layouts/search';
+import Navbar from './components/navbar/navbar';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import NotFoundPage from './components/pages/notFoundPage';
-import Card from './components/pages/card';
+import NotFoundPage from './layouts/notFoundPage';
+import Card from './layouts/card';
 
 
 

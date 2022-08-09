@@ -1,7 +1,7 @@
 import { useParams, useNavigate } from 'react-router-dom'
 import { useEffect } from "react"
-import Cards from "../UI/Cards"
-import Pagination from "../UI/pagination/pagination"
+import Cards from "./../components/cards/Cards"
+import Pagination from "./../components/pagination/pagination"
 
 const Search = ({ query, setCurrentFilm, refer, currentPage, setCurrentPage, setQuery }) => {
 
