@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { getCards } from '../servise/getFilmInfo'
+import { getCards } from '../../servise/getFilmInfo'
 import Loader from "../loader/loader"
 import Error from '../error/error'
 

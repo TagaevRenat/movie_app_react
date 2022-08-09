@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { getFilmInfo } from '../servise/getFilmInfo'
+import { getFilmInfo } from '../../servise/getFilmInfo'
 import Loader from "../loader/loader"
 import Error from '../error/error'
 

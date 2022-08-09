@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import './pagination.css'
-import { getCards } from '../servise/getFilmInfo'
+import { getCards } from '../../servise/getFilmInfo'
 
 const Pagination = ({ refer, currentPage, setCurrentPage }) => {
     const [totalPages, setTotalPages] = useState(1)
